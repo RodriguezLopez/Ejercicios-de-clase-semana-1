@@ -1,0 +1,62 @@
+# Desafío IA: Transformando un Proceso Tradicional
+
+## 1. Introducción
+
+En este documento, se expone cómo un proceso tradicional puede mejorarse mediante la incorporación de la inteligencia artificial. Se eligió como caso de uso **la gestión de reclamos de clientes en una aseguradora**, un proceso muy común en la industria de los seguros.
+
+Tradicionalmente, este proceso es manual, lento y dependiente del juicio humano, lo que conlleva largos tiempos de espera y frustración del cliente. Este documento explora cómo transformar dicho flujo con inteligencia artificial para mejorar la experiencia y eficiencia.
+
+## 2. Descripción del Proceso Tradicional
+
+**Situación actual:**
+- Los clientes envían sus reclamos por correo electrónico o mediante un formulario web.
+- Un equipo de agentes revisa manualmente cada reclamo, verifica la documentación y contacta al cliente si falta información.
+- El proceso completo puede tardar entre 3 y 10 días hábiles, dependiendo de la complejidad del caso.
+
+**Problemas o limitaciones del método tradicional:**
+- Lento procesamiento de reclamos, lo que afecta la satisfacción del cliente.
+- Costo elevado en tiempo y recursos humanos.
+- Errores humanos en la clasificación o evaluación del reclamo.
+- Dificultad para escalar en periodos de alta demanda (ej. desastres naturales).
+
+## 3. Propuesta de Solución con IA
+
+**Objetivo de la solución:**
+- Automatizar la recepción, clasificación y evaluación preliminar de los reclamos mediante un sistema basado en inteligencia artificial.
+
+**Descripción de la solución IA:**
+- **Tecnología empleada:** Procesamiento de Lenguaje Natural (NLP), modelos de clasificación de texto, OCR (Reconocimiento Óptico de Caracteres).
+- **Integración en el flujo:**
+  - El sistema recibe automáticamente el formulario o correo del cliente.
+  - Un modelo de NLP extrae la información clave del texto y documentos adjuntos (usando OCR si es necesario).
+  - El reclamo es clasificado automáticamente según tipo, urgencia y área responsable.
+  - El sistema genera una respuesta automática confirmando la recepción e indicando los pasos siguientes.
+  - Casos especiales o ambiguos se escalan automáticamente a un agente humano.
+
+**Beneficios esperados:**
+- Reducción del tiempo de evaluación de 3 días a solo minutos en muchos casos.
+- Mejora de la precisión en la clasificación inicial.
+- Disminución de la carga de trabajo repetitiva del personal humano.
+- Mejora en la experiencia del cliente gracias a respuestas más rápidas y claras.
+- Sistema escalable que puede procesar cientos de reclamos por hora sin necesidad de más personal.
+
+## 4. Comparativa entre Procesos
+
+| Aspecto                    | Proceso Tradicional                          | Solución con IA                                   |
+|----------------------------|----------------------------------------------|---------------------------------------------------|
+| Velocidad de respuesta     | Lenta (3-10 días)                            | Alta (minutos a horas)                            |
+| Costo operativo            | Alto (personal humano dedicado)             | Bajo (automático y escalable)                    |
+| Consistencia de decisiones | Variable, depende del agente                 | Alta, basada en reglas y modelos entrenados      |
+| Capacidad de escalamiento | Limitada                                     | Muy alta, sin depender de más personal            |
+| Satisfacción del cliente   | Regular, por demoras                         | Alta, por rapidez y claridad                     |
+
+## 5. Reflexión Personal
+
+Este ejercicio muestra que la inteligencia artificial puede tener un impacto transformador en procesos operativos tradicionales. Al automatizar tareas repetitivas y administrativas, se libera tiempo para que los empleados se enfoquen en tareas más estratégicas y humanas, como resolver casos complejos o brindar apoyo emocional.
+
+Aun así, no todo es automatizable. Es fundamental implementar IA de manera ética, transparente y supervisada. Las decisiones críticas, como rechazar un reclamo o detectar fraude, deben incluir revisión humana. Además, la calidad de los datos de entrada es clave: un sistema de IA es tan bueno como los datos con los que se entrena.
+
+Integrar IA no significa eliminar el factor humano, sino potenciarlo.
+
+---
+
